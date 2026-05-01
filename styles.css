@@ -1,6 +1,6 @@
 :root {
-  --cream: #eef8ff;
-  --cream-2: #dcedf8;
+  --cream: #f6efff;
+  --cream-2: #eadcf8;
   --sage: #8ba98e;
   --sage-dark: #48664f;
   --blush: #e9b7a7;
@@ -19,8 +19,8 @@ body {
   font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--charcoal);
   background:
-    radial-gradient(circle at top left, rgba(173, 213, 238, .6), transparent 34rem),
-    linear-gradient(180deg, var(--cream), #f8fcff 48%, var(--cream));
+    radial-gradient(circle at top left, rgba(213, 186, 238, .58), transparent 34rem),
+    linear-gradient(180deg, var(--cream), #fbf8ff 48%, var(--cream));
   line-height: 1.6;
 }
 
@@ -36,7 +36,7 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem clamp(1rem, 4vw, 4rem);
-  background: rgba(238, 248, 255, .86);
+  background: rgba(246, 239, 255, .86);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(72, 102, 79, .12);
 }
