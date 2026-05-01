@@ -16,7 +16,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Nunito Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--charcoal);
   background:
     radial-gradient(circle at top left, rgba(213, 186, 238, .58), transparent 34rem),
@@ -46,7 +46,7 @@ img { max-width: 100%; display: block; }
   width: 2.35rem; height: 2.35rem; border-radius: 50%;
   display: grid; place-items: center;
   background: var(--sage-dark); color: white;
-  font-family: Fraunces, serif; font-size: 1.25rem;
+  font-family: "Playfair Display", Georgia, serif; font-size: 1.25rem;
 }
 .nav { display: flex; align-items: center; gap: 1.35rem; font-weight: 700; font-size: .95rem; }
 .nav a:not(.nav-cta):hover { color: var(--sage-dark); }
@@ -56,9 +56,9 @@ img { max-width: 100%; display: block; }
 .hero { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(18rem, .92fr); gap: clamp(2rem, 6vw, 5rem); align-items: center; min-height: 78vh; }
 .eyebrow { margin: 0 0 .85rem; color: var(--coral); text-transform: uppercase; letter-spacing: .14em; font-size: .78rem; font-weight: 800; }
 h1, h2, h3 { margin: 0; line-height: 1.05; }
-h1, h2 { font-family: Fraunces, Georgia, serif; letter-spacing: -.03em; }
-h1 { font-size: clamp(3rem, 7vw, 6.7rem); max-width: 11ch; }
-h2 { font-size: clamp(2.1rem, 4.5vw, 4.5rem); max-width: 12ch; }
+h1, h2 { font-family: "Playfair Display", Georgia, serif; letter-spacing: -.025em; }
+h1 { font-size: clamp(2.45rem, 5.2vw, 5rem); max-width: 13ch; }
+h2 { font-size: clamp(2rem, 4vw, 4rem); max-width: 13ch; }
 h3 { font-size: 1.18rem; }
 p { color: var(--muted); }
 .hero-text { max-width: 42rem; font-size: clamp(1.08rem, 2vw, 1.28rem); margin: 1.3rem 0 1.8rem; }
@@ -111,7 +111,7 @@ input:focus, textarea:focus, a:focus-visible, button:focus-visible { outline: 3p
 @media (max-width: 900px) {
   .nav a:not(.nav-cta) { display: none; }
   .hero, .about-panel, .contact-card { grid-template-columns: 1fr; }
-  h1 { max-width: 12ch; }
+  h1 { max-width: 13ch; }
   .card-grid.four, .card-grid.three, .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .footer { flex-direction: column; }
 }
